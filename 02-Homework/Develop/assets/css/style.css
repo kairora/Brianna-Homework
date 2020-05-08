@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-
+/* changes the style features of the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,20 +13,23 @@ header {
     color: #ffffff;
 }
 
+/* Colors the body */
 body {
     background-color: #d9dcd6;
 }
 
-
+/* Changes the size/display of the h1 heading */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* colors the "seo" within the first h1 heading  */
 .seo {
     color: #d9dcd6;
 }
 
+/* Styles the nav bar at the top of the page */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,20 +38,24 @@ nav {
     font-size: 20px;
 }
 
+/* style the list elements */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* alters the color decoration of the anchored text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes the fontsize of p elements */
 p {
     font-size: 16px;
 }
 
+/* inputs and styles a background image */
 .digimeeting {
     height: 800px;
     width: 100%;
@@ -58,22 +65,47 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* styles the main container size, display and margin */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Groups the main elements into one class and styles the class */
+.sections {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* styles the main container's images */
+.sections img {
+    max-height: 200px;
+}
+
+/* style the main container's h2 headings*/
+.sections h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Floats two body section images left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* floats one body section image right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Styles the sidebar */
 .benefitsidebar {
     margin-right: 20px;
     padding: 20px;
@@ -85,44 +117,27 @@ main {
     background-color: #2589bd;
 }
 
+/* Groups the previously individual sidebar sections into one class */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
-
+/* Styles the sidebar h3 elements margin and alignment */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* styles the sidebar's images */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-.sections {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.sections img {
-    max-height: 200px;
-}
-
-.sections h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* styles the footer elements */
 footer {
     padding: 30px;
     clear: both;
@@ -130,6 +145,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* changes font size of all h4 headings */
+h4 {
     font-size: 20px;
 }
